@@ -1,50 +1,86 @@
-# Welcome to Expo app 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 3px;
+            overflow-x: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+    <h1>Memory Card Game</h1>
 
-## Get started
+    <div class="section">
+        <h2>Overview</h2>
+        <p>This is a Memory Card Game developed using React Native. In this game, users can customize the number of cards and the duration of the game according to their preferences. The goal is to match pairs of cards, and the game ends when all pairs are matched or when the time runs out. Users can also restart the game or adjust the settings through a settings modal.</p>
+    </div>
 
-1. Install dependencies
+    <div class="section">
+        <h2>Features</h2>
+        <ul>
+            <li>Customizable number of cards (10, 20, 30, 40)</li>
+            <li>Adjustable timer duration (10 to 120 seconds)</li>
+            <li>Animated card flips</li>
+            <li>Win and time-up notifications</li>
+            <li>Settings modal for game configuration</li>
+        </ul>
+    </div>
 
-   ```bash
-   npm install
-   ```
+    <div class="section">
+        <h2>Getting Started</h2>
+        <ol>
+            <li><strong>Clone the Repository</strong>
+                <pre><code>git clone https://github.com/your-username/memory-card-game.git
+cd memory-card-game</code></pre>
+            </li>
+            <li><strong>Install Dependencies</strong>
+                <pre><code>npm install</code></pre>
+            </li>
+            <li><strong>Run the Application</strong>
+                <pre><code>npm start</code></pre>
+            </li>
+            <li><strong>Customize</strong>
+                <p>Replace the images in <code>assets/images</code> with your own images to customize the appearance of the cards.</p>
+            </li>
+        </ol>
+    </div>
 
-2. Start the app
+    <div class="section">
+        <h2>Customization</h2>
+        <p>To change the images used in the game, replace the image files in the <code>assets/images</code> folder with your own images. Ensure the new images have the same names as the existing ones or update the <code>images</code> array in the code to reflect the new names.</p>
+    </div>
 
-   ```bash
-    npx expo start
-   ```
+    <div class="section">
+        <h2>Contributing</h2>
+        <p>Feel free to contribute to this project by submitting issues or pull requests. Any improvements, bug fixes, or new features are welcome.</p>
+    </div>
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+</body>
+</html>
