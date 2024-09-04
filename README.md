@@ -31,5 +31,8 @@ To get started with this project, follow these steps:
 ## Customization
 To change the images used in the game, replace the image files in the assets/images folder with your own images. Ensure the new images have the same names as the existing ones or update the images array in the code to reflect the new names.
 
+## Important Notice
+Icon Symmetry: When adding custom images for the card fronts, ensure that the icons are symmetrical. This is important because the cards are flipped using a rotation animation. If the icons are not symmetrical, they may appear reversed when the card is flipped. Symmetrical icons will maintain their correct orientation, providing a better user experience.
+
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. Any improvements, bug fixes, or new features are welcome.
