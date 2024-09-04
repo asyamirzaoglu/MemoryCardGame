@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# Memory Card Game
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+This is a Memory Card Game developed using React Native. In this game, users can customize the number of cards and the duration of the game according to their preferences. The goal is to match pairs of cards, and the game ends when all pairs are matched or when the time runs out. Users can also restart the game or adjust the settings through a settings modal.
 
-1. Install dependencies
+## Features
 
+- Customizable number of cards (10, 20, 30, 40)
+- Adjustable timer duration (10 to 120 seconds)
+- Animated card flips
+- Win and time-up notifications
+- Settings modal for game configuration
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. **Clone the Repository**
    ```bash
-   npm install
-   ```
+   git clone https://github.com/your-username/memory-card-game.git
+   cd memory-card-game
+2. **Install Dependencies**
+    ```bash
+    npm install
 
-2. Start the app
-
+3. **Run the Application**
    ```bash
-    npx expo start
-   ```
+   npm start
 
-In the output, you'll find options to open the app in a
+## Customization
+To change the images used in the game, replace the image files in the assets/images folder with your own images. Ensure the new images have the same names as the existing ones or update the images array in the code to reflect the new names.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Contributing
+Feel free to contribute to this project by submitting issues or pull requests. Any improvements, bug fixes, or new features are welcome.
